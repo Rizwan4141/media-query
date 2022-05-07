@@ -1,0 +1,33 @@
+   
+    @media  (max-width: 400px) {
+     .main{ text-align: center;
+      color:  red;
+      font-size: 10px;
+      font-style: italic;
+     }
+     .img{border: 2px solid black;}
+    }
+    @media (min-width: 600px) {
+      .main{
+          color: blue;
+          font-size: 10px;
+          font-style: oblique;
+      }
+      .img{
+      border:5px dotted yellow ;
+      border-radius: 20px;
+      }
+    }
+    @media (min-width: 800px){
+        .main{
+            color: aqua;
+            font-size: 30px;
+            font-style: inherit;
+
+        }
+        .img{
+            border: 4px double green;
+            
+        }
+    }
+  
